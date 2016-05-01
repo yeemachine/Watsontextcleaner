@@ -14,6 +14,7 @@ var submitData= function(){
     type: 'POST',
     success: function(data) {
       console.log(data);
+      console.log(data.text);
     }
 
   });
