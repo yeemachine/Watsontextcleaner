@@ -15,7 +15,7 @@ var submitData= function(){
     success: function(data) {
       console.log(data);
       console.log(data.text);
-      $( "p" ).append( data.text );
+      $( "p" ).append( "<br/>" + data.text + "<br/>"  );
     }
 
   });
